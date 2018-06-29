@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>distpicker</title>
+    <link rel="stylesheet" href="css/dist.css" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/dist.js"></script>
+    <script src="js/zh2Pinyin.js"></script>
+    <script src="js/myDistpicker.js"></script>
+
+</head>
+<body>
+    <div>
+        <input name=""  readonly id="dist">
+    </div>
+</body>
+<script>
+    $(function () {
+        $("#dist").myDistpicker({
+            stopBy: 'div'
+        });
+    })
+</script>
+</html>

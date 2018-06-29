@@ -1,0 +1,125 @@
+
+body {
+  font: 12px/1.5 arial;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #333;
+}
+
+div {
+  text-align: left;
+}
+
+.add_content {
+  width: 340px;
+  background: #fff;
+  background-color: #fff;
+  box-shadow: 0 10px 15px 0 rgba(57, 63, 76, 0.12);
+  border-radius: 4px;
+  min-height: 300px;
+  position: absolute;
+  border: 1px solid rgba(57, 63, 76, 0.07);
+  top: 50px;
+  color: #585e66 !important;
+  left: 75px;
+  z-index: 104;
+  /*overflow-y: scroll;*/
+}
+
+.add_heard {
+  height: 48px;
+  line-height: 48px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #2c2f33;
+  border-bottom: 1px solid rgba(57, 63, 76, 0.07);
+}
+
+.add_content .nav > li > a {
+  position: relative;
+  display: block;
+  opacity: 0.5;
+  padding: 0px 15px;
+}
+
+.add_value {
+  width: 20%;
+  float: left;
+  margin-top: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.add_value.active {
+  background-color: #c4cdd5;
+}
+
+.add_alphabet {
+  margin-top: 5px;
+}
+
+.add_content .nav-pills > li.active > a, .add_content .nav-pills > li.active > a:hover, .add_content .nav-pills > li.active > a:focus {
+  color: #2d374b !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+}
+
+.add_body {
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.add_content .nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent !important;
+  color: #585e66 !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav > li {
+  position: relative;
+  display: block;
+}
+
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+
+.nav-pills > li {
+  float: left;
+}
+
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+
+li {
+  list-style-type: none;
+  list-style: none;
+}
+
+/*字母*/
+.pad-0 {
+  padding: 0px !important;
+}
+
+.col-xs-2 {
+  width: 16.66666667%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+
+.col-xs-10 {
+  float: left;
+  width: 83.33333333%;
+}
