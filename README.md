@@ -3,6 +3,8 @@
 
 City cascaded selection plug-in
 
+-  [Demo](http://xuyiKing.github.io/cityPicker)
+
 ## 插件(plugin)
 基于jquery，html+css+js实现
 
