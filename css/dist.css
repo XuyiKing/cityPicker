@@ -22,9 +22,9 @@ div {
   min-height: 300px;
   position: absolute;
   border: 1px solid rgba(57, 63, 76, 0.07);
-  top: 50px;
+  top: 25px;
   color: #585e66 !important;
-  left: 75px;
+  left: 55px;
   z-index: 104;
   /*overflow-y: scroll;*/
 }

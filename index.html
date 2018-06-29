@@ -11,8 +11,18 @@
 
 </head>
 <body>
+    <div style="position:relative;">
+        省市区：<input name=""  readonly id="dist">
+    </div>
     <div>
-        <input name=""  readonly id="dist">
+        实例代码：
+    <pre>
+    $(function () {
+        $("#dist").myDistpicker({
+            stopBy: 'div'
+        });
+    })
+    </pre>
     </div>
 </body>
 <script>
