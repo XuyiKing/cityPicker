@@ -42,7 +42,7 @@ Create HTML elements:
 
 ```html
 <div style="position:relative;"><!-- container -->
-  <input name=""  readonly id="dist">
+  <input name=""  placeholder="请选择省/市/区" readonly id="dist">
 </div>
 ```
 
