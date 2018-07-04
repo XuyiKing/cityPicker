@@ -20,9 +20,9 @@ Add function to get the code：
 
 ```
 js/
-├── dist.js      ( 4 KB)
-├── zh2Pinyin.js     (98 KB)
-└── myDistpicker.js     ( 7 KB)
+├── dist.js      ( 124 KB)
+├── zh2Pinyin.js     (52 KB)
+└── myDistpicker.js     (12 KB)
 ```
 
 ## Getting started
